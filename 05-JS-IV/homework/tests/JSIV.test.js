@@ -139,7 +139,7 @@ describe('actualizarPassword(user, password)', function() {
     const user = {
       password: 'Me encanta JS!',
     };
-    const password = 'Me encanta JS mucho más!';
+    const password = 'Me encanta JS!';
     expect(actualizarPassword(user, password).password).toBe(password);
   });
 });
